@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+nav.navbar.bg-light {
+    background-color: rgb(129, 128, 128) !important;
+    border: 2px solid #1b1a1a;
+    border-left: 1px;
+    border-right: 1px;
+
+}
+
+body{
+    width: 100%;
+}
+
+#h1{
+    text-align: center;
+}
+
+.text{
+    background-color: rgb(129, 128, 128);
+    padding: 12px;
+}
+
+h3{
+    text-align: center;
+
+}
+
+p{
+    text-align: start;
+
+}
+
+@media (min-width: 468px) {
+    .navbar-nav {
+        display: none !important;
+    }
+}
