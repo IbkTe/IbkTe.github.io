@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg-intro-desktop.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+main{
+    margin: 0 0 0 0;    
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: hsl(0, 100%, 74%);
+    opacity: 0.85;
+}
+.side{
+    color: white;
+    width: 50%;
+    padding: 30px;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 05px 05px 10px;
+    border-radius: 5px;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+.other-side button{
+    background-color: ;
+}

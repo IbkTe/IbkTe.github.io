@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+div{
+    height: 60vh;
+
+}
+img{ 
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2{
+    color:  hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+}
+main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    
+
+}
+.a{
+    padding: 0 30px;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+.b{
+    padding: 0 30px;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+.c{
+    padding: 0 30px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+button{
+    color:  hsl(0, 0%, 95%);
+    background-color: transparent;
+    border:2px solid  hsl(0, 0%, 95%);
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 12px 25px;
+    
+}
