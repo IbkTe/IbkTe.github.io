@@ -64,3 +64,34 @@ button{
     padding: 12px 25px;
     
 }
+@media (max-width: 425px){
+    main{
+        display: grid;
+        height: 100vh;
+        grid-template-areas: 'a b c';
+    }
+    main div{
+        padding: 1px;
+
+    }
+    button{
+        border-radius: 16px;
+    }
+    .a{
+        width: 100%;
+        grid-area: a;
+    }
+    .b{
+        width: 100%;
+        grid-area: b;
+    }
+    .c{
+        width: 100%;
+        grid-area: c;
+    }
+    a{
+        background-color: aqua;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+}
