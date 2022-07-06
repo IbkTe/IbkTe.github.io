@@ -1,0 +1,215 @@
+:root {
+    --greyDark: #333333;
+    --greyLight: #d6d6d6;
+    --greyLight2: #a1a1a6;
+    --white: #f5f5f7;
+    --text: #1d1d1f;
+    --blue: #0071e3;
+    --a: #2997ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+.nav{
+    background-color: rgba(0, 0, 0, .8);
+}
+.nav ul {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 9px;
+    margin-left: 2rem;
+    margin-right: 2rem;    margin: auto;
+
+}
+.nav li{
+    list-style-type: none;
+
+}
+.nav a{    
+    color: var(--greyLight);
+    text-decoration: none;
+}
+.nav img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#first{
+    line-height: 3rem;
+    color: #f5f5f7;
+    background-color: var(--blue);
+}
+#second{
+        line-height: 3rem;
+        color: var(--text);
+        background-color: var(--white);
+    
+}
+#second span{
+    color: var(--blue);
+}
+.section-1 .title{
+    background-color: #000;
+    color: var(--greyLight);
+    text-align: center;
+}
+ h1{
+    padding-top: 1.8rem;
+    font-weight: 500;
+    font-size: 3.6rem;
+}
+ h3{
+    font-size: 2.0rem;
+    font-weight: 500;
+}
+
+.like-btn p{
+    color: var(--a);
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.like-btn p:hover{
+    border-bottom: 2px solid var(--a);
+}
+.like-btn p:nth-child(2){
+    margin-left: 1.5rem;
+}
+.section-1 img, .section-2 img {
+    width: 100%;
+    height: 30rem;
+    background-position: center;
+}
+.section-1{
+   height: 100%;
+   width: 100%;
+}
+.down-text{
+    position: absolute;
+    width: 100%;
+    margin-top: -10rem;
+    color: var(--greyLight2);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.down-text .h2{
+    color: var(--white);
+
+}
+#p{
+    margin-bottom: 1rem;
+
+}
+.title2{
+    text-align: center;
+    /* z-index: 1; */
+    background-color: #ffe;
+    width: 100%;  
+}
+.section-2 .down-text{
+    padding: 2rem;
+}
+#apple{
+    width: 2rem;
+    margin-top: -rem;
+    text-align: center;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-3 title h1{
+    margin: 0;
+    padding: 0;    
+
+    text-align: center;
+
+}
+
+.section-3 .title               
+{
+    background-color: #000;
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+.section-3 title h1{    font-weight: 200;
+
+    /* position: absolute; */
+    /* padding: 1rem; */
+}
+.section-3 .like-btn{
+    padding-bottom: 3rem;
+}
+
+.section-4{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.section-4 img{
+   width: 100%;
+   height: 100%;
+}
+.div1{
+}
+.div2{
+
+}
+.div3{
+
+}
+ .div1, .div2, .div3, .div4, .div5, .div6 {    
+position: relative;
+}
+
+#one{
+    margin-bottom: -1rem;
+position: absolute;
+}
+ #two{
+    margin-top: -1rem;
+    position: absolute;
+}
+#three{
+    padding-bottom: -1rem;
+    position: absolute;
+
+}
+#four{
+margin-bottom: -2rem;
+position: absolute;
+
+
+}
+#five{
+    margin-bottom: -2rem;
+    position: absolute;  
+}
+#pone{
+    width: 2rem;
+}
+#arrow{
+    width: 1rem;
+}
+#six{
+    margin-bottom: -2rem;
+    position: absolute; 
+    
+} 
