@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.img-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 69px;
+  margin-bottom: 69px;
+  margin: auto;
+}
+.hero-container {
+  height: 800px;
+  background-image: url(./img/zuri-background.PNG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+.text {
+  max-width: 700px;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.text h2 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #514949;
+  margin-bottom: 36px;
+  font-weight: 600;
+}
+.text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  text-align: center;
+}
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+.btn-div{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.my-btn {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    align-items: center;
+    padding: 11px 30px;
+    margin: 20px;
+    border:1px solid #e7332b;
+    cursor: pointer;
+
+}
+.btn-red{
+    background-color: #e7332b;
+    color: #fff;
+}
+.btn-red:hover{
+    color: #e7332b;
+    background-color: #fff;
+}
+.btn-red-outline{
+    color: #e7332b;
+    background-color: #fff;
+}
+.btn-red-outline:hover{
+    background-color: #e7332b;
+    color: #fff;
+}
+.hero{
+  background-color: #fff;
+  max-width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.section{
+  text-align: center;
+}
+.hero h3{
+  font-size: 14px;
+  line-height: 24px;
+  color: #E7332B;
+  margin-top: 141px;
+}
+.hero p{
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #514949;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;    
+  max-width: 1440px !important;  
+  text-align: center!important;
+}
+.program-content {
+  padding-top: 0 !important;
+}
+.text-center {
+  text-align: center!important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.program-card-zed {
+  position: relative;
+  z-index: 1;
+}
+.program-card {
+  width: 100%;
+  background-color: #FFFAFA;
+  padding: 61px 47px 82px 36px;
+}
+.text-left {
+  text-align: left!important;
+}
+.program-card img {
+  margin-bottom: 48px;
+}
+img.card-bg-svg-1 {
+  width: 100%;
+  position: absolute;
+  left: -120px;
+  top: -75px;
+  z-index: -1;
+}
+img.card-bg-svg-2 {
+  width: 90%;
+  position: absolute;
+  right: -120px;
+  top: -75px;
+  z-index: -1;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.program-card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.footer {
+  margin-top: 215px;
+  display: block;
+
+}
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+  margin-right: auto!important;
+
+}
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+}
+.contact p, .address p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+}
+.contact-icons img {
+  width: 18px !important;
+  margin-right: 5px;
+}
+.m-3 {
+  margin: 1rem!important;
+}
+footer hr {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.copyright p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 97px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+.col-lg-4 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.m-lg-0 {
+  margin: 0!important;
+}}
+
+@media (min-width: 768px){
+.text-md-left {
+    text-align: left!important;
+}}
+
+@media (min-width: 1200px){
+.d-xl-block {
+    display: block!important;
+}}
