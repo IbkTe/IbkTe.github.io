@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Arvo:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+max-width: 100rem;
+max-height: 100rem;
+}
+.home{
+    background-color: #ffc135;
+    max-width: 100%;
+    padding: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h4{
+    align-items: center;
+    text-align: center;
+    list-style: 30px;
+    
+}
+.delivery{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    float: right;
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 900;
+    color: #42200b;
+}
+.burgerWeek{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.wholeBurger h1 #hh{
+    color: #42200b;
+    font-size: 3pc;
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+}
+.wholeBurger h1 #spN{
+    color: #42200b;
+    font-size: 2pc;
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+}
+.wholeBurger p{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #42200b;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border: 2px dashed #42200b;
+}
+.burger{
+    position: relative;
+}
+.burger #bur{
+max-width: 100%;
+float: right;
+align-items: flex-end;
+position: relative;
+
+}
+#elipse{
+    margin-top: -150px;
+    width: 150px;
+
+}
+.redCirle{
+    position: absolute;
+}
+.redCirle h4{
+   font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: -150px;
+    margin-left: 20px; 
+}
+#span{
+    letter-spacing: 15px;
+
+}
+#spa{
+    font-size: 50px;
+    font-weight: 900;
+}
+.special{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-gap: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 90%;
+    height: 100%;
+}
+
+.special img{
+    width: 100%;
+}
+.one{
+    height: 100%;
+}
+.second .sec{
+    height: 25%;
+    padding-bottom: 2%;
+}
+.second .ond{
+    height: 25%;
+    padding-top: 2%;
+}
+.second .sec{
+font-size: small;
+}
+#text{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    padding: 10px;
+    font-weight: 900;
+    position: absolute;
+    color: #fff;
+    width: 50%;
+    text-align: start;
+
+}
+
+.burgerOne img{
+     width: 100%;
+    margin-top: 20px;
+}
+
+.burgerOne{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+
+}
+.realSpecial{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #42200b;
+    margin: 50px;
+}
+
+.detail h4{
+    background-color: #ffc135;
+    line-height: 30px;
+    padding: 5px;
+    width: 11rem;
+    font-weight: 900;
+    margin: auto;
+    font-size: x-large;
+
+}
+.detail h1{
+    font-size: 3rem;
+    font-family: 'Arvo', serif;
+    line-height: 100px;
+    font-weight: 900;
+}
+.realSpecial p{
+font-family: sans-serif;
+font-size: small;
+
+}
+
+.burgerText{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+
+}
+.burgerText h2{
+    line-height: 50px;
+}
+.burgerText button{
+    background-color: #df1c1c;
+    border: none;
+    margin: 30px 0;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 5px 15px 5px 15px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 30px;
+}
+.scrolling{
+    color: #42200b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 50px;
+}
+.scrolling img{
+    width: 100%;
+   
+}
+.One h3{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    padding-left: 20px;
+
+}
+.One p{
+    font-size: large;
+    padding: 20px;
+    line-height: 30px;
+}
+.One h1{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+.dotss{
+    display:flex;
+    padding: 20px;
+    margin-top: 100px;
+}
+.dot{
+    background-color: #ddd;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 4px;
+
+}
+.top{
+    background-color: #ffc135;
+}
+.form{
+    text-align: center;
+    background-image: url(./images/background.png);
+    padding: 7rem;
+    margin-top: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #42200b;
+    background-position: left;
+}
+.form h1{
+    font-family: 'Arvo', serif;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.form h3{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+.input{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+input{
+    width:50%;    
+    line-height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: #ffb042;
+}
+#red{
+    background-color: #df1c1c;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+.heading{
+display: block;
+}
+
+.footer{
+    background-image: url(./images/Untitled.png);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 15px 40px;
+    padding-bottom: 10px;
+}
+.footerOne{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    margin-bottom: 50px;
+
+
+}
+.footerOne p{
+    width: 60%;
+    font-family: serif;
+}
+.h4{
+    width: 40%;
+    text-align: start;
+    margin-left: 40%;
+}
+.h4 img{
+    padding-right: 20px;
+}
+.footerTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+@media screen and (min-width: 950px){
+    .burgerWeek img{
+    margin-top: -10pc;
+    }
+    .wholeBurger{
+    margin-top: -7pc;
+
+    }
+    .wholeBurger p{
+        width:60% ;
+    }
+    .wholeBurger h1 #hh{
+        width:100% ;
+        font-size: 6pc;
+  
+    }
+    #text{
+        font-size: xx-large;
+    }
+
+}
