@@ -13,7 +13,8 @@ max-height: 100rem;
 }
 .home{
     background-color: #ffc135;
-    max-width: 100%;
+    /* max-width: 100vw; */
+    /* min-height:100vh ; */
     padding: 30px;
 }
 .logo{
@@ -24,6 +25,7 @@ max-height: 100rem;
 .logo h4{
     align-items: center;
     text-align: center;
+    padding-left: 5px;
     list-style: 30px;
     
 }
@@ -33,8 +35,8 @@ max-height: 100rem;
 }
 .navbar ul{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
-    float: right;
     display: flex;
+    justify-content: end;
 }
 .navbar ul li{
     list-style-type: none;
@@ -42,19 +44,29 @@ max-height: 100rem;
 }
 .navbar a{
     text-decoration: none;
-    font-weight: 900;
+    font-weight: bold;
+    font-size: large;
     color: #42200b;
 }
 .burgerWeek{
-    clear: both;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
+    justify-content:space-between;
+    
+}
+.wholeBurger{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    /* align-items: flex-end;     */
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-self: stretch;
+    max-height: 50vh;
+    max-width: 100vw;
 }
 .wholeBurger h1 #hh{
     color: #42200b;
-    font-size: 3pc;
+    font-size: 6rem;
     font-family: 'Arvo', serif;
     font-weight: 900;
 }
@@ -67,43 +79,49 @@ max-height: 100rem;
 .wholeBurger p{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: #42200b;
-    font-weight: 600;
+    width: 50%;
+    font-weight: bolder;
     text-align: center;
     padding: 5px 10px 5px 10px;
     border: 2px dashed #42200b;
 }
-.burger{
+
+.burger {
     position: relative;
+    flex-basis: 50%;
+    align-self: stretch;
+    background-image: url(./images/groupFood.png);
+    background-size: contain;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-repeat: no-repeat;
 }
-.burger #bur{
-max-width: 100%;
-float: right;
-align-items: flex-end;
-position: relative;
 
-}
-#elipse{
-    margin-top: -150px;
-    width: 150px;
-
-}
-.redCirle{
+#redCirle{
+    background-image: url(./images/elipse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     position: absolute;
+    padding: 14px;
+    bottom: 30%;
+    left: 15%;
+
 }
-.redCirle h4{
+#redCirle h4{
    font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: #fff;
-    padding: 20px;
-    font-size: 30px;
-    margin-top: -150px;
-    margin-left: 20px; 
+     font-size: large;
+     margin-top: -10px;
+    margin-left: 20px;  
 }
 #span{
-    letter-spacing: 15px;
+    letter-spacing: 10px;
+    margin-right: 9px;  
 
 }
 #spa{
-    font-size: 50px;
+    font-size: xx-large;
     font-weight: 900;
 }
 .special{
@@ -258,12 +276,13 @@ font-size: small;
 .form{
     text-align: center;
     background-image: url(./images/background.png);
-    padding: 7rem;
-    margin-top: 1rem;
-    background-size: cover;
+    margin: 4rem auto;
+    min-width: 100vw;
+    min-height: 100hv;
+    background-size: contain;
     background-repeat: no-repeat;
     color: #42200b;
-    background-position: left;
+    background-position: center;
 }
 .form h1{
     font-family: 'Arvo', serif;
@@ -279,11 +298,14 @@ font-size: small;
 }
 .input{
     display: flex;
-    margin: 20px;
+    flex-wrap: wrap;
+    
+    /* margin: 20px; */
     justify-content: center;
 }
 input{
-    width:50%;    
+    /* width:50px;      */
+    flex-basis: 33.3%;
     line-height: 30px;
     margin: 10px;
     border: none;
@@ -336,26 +358,127 @@ display: block;
 .footerTwo{
     display: flex;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 100px;
 }
-@media screen and (min-width: 950px){
-    .burgerWeek img{
-    margin-top: -10pc;
+@media screen and (min-width: 950px)
+    {
+ .burgerWeek img{
     }
     .wholeBurger{
-    margin-top: -7pc;
-
-    }
+    } 
     .wholeBurger p{
-        width:60% ;
+         width:60% ; 
     }
-    .wholeBurger h1 #hh{
+     .wholeBurger h1 #hh{
+
         width:100% ;
         font-size: 6pc;
   
-    }
+    } 
     #text{
         font-size: xx-large;
     }
 
 }
+@media screen and (max-width: 600px ){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .home{ 
+        display: flex;
+        flex-direction: column;
+
+    }
+    .logo{
+        padding-bottom: 20px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .delivery img{
+        width: 20px;
+    }
+    .navbar{
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .burgerWeek{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .wholeBurger{
+        align-items: center;
+    }
+    .wholeBurger p{
+        margin-bottom: 20px;
+font-size: x-large; 
+width: 90%;
+align-self: center;
+}
+    .wholeBurger h1{
+
+        margin-bottom: 2rem;
+    }
+}
+.Burger{
+
+    position: relative;
+    flex-basis: 50%;
+    align-self: stretch;
+    background-image: url(./images/groupFood.png);
+    background-size: contain;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-repeat: no-repeat;
+
+} 
+.special{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .burgers{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .burgerOne{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .burgerText{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .scrolling{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .input{
+        display: grid;
+        place-content: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerOne{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .footerTwo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
