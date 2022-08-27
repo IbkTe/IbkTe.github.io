@@ -425,7 +425,7 @@ align-self: center;
 
         margin-bottom: 2rem;
     }
-}
+
 .Burger{
 
     position: relative;
@@ -472,13 +472,22 @@ align-self: center;
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        width: 100%;
+    }
     .footerOne{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+    }
+    .h4{
     }
     .footerTwo{
         display: flex;
         flex-direction: column;
         margin-top: 70px;
     }
+    .footerTwo img{
+width: 100px;
+    }
+}
