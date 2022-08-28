@@ -473,7 +473,8 @@ align-self: center;
         align-items: center;
     }
     .footer{
-        width: 100%;
+        width:1;
+        align-items: center;
     }
     .footerOne{
         display: flex;
@@ -481,6 +482,8 @@ align-self: center;
         width: 100%;
     }
     .h4{
+        margin-left: -1px;
+        margin-top: 10px;
     }
     .footerTwo{
         display: flex;
