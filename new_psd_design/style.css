@@ -345,7 +345,7 @@ display: block;
 }
 .footerOne p{
     width: 60%;
-    font-family: serif;
+    font-family: sans-serif;
 }
 .h4{
     width: 40%;
@@ -411,14 +411,16 @@ display: block;
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        justify-content: center;
     }
     .wholeBurger{
+        justify-content: center;
         align-items: center;
     }
     .wholeBurger p{
         margin-bottom: 20px;
-font-size: x-large; 
-width: 90%;
+font-size: large; 
+width: 80%;
 align-self: center;
 }
     .wholeBurger h1{
@@ -443,22 +445,29 @@ align-self: center;
     flex-direction: column;
     justify-content: center;
 }
+.detail h4{
+    margin: 10px auto;
+}
+.detail h1{
+line-height: 60px;}
     .burgers{
         display: flex;
         flex-direction: row;
         align-items: center;
 
     }
+    .burgers img{
+        width: 150%;
+
+    }
     .burgerOne{
         display: flex;
         flex-direction: column;
-        margin: 20px auto;
         align-items: center;
     }
     .burgerText{
         display: flex;
         flex-direction: column;
-        margin: 20px auto;
     }
     .scrolling{
         display: flex;
