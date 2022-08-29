@@ -374,11 +374,15 @@ label {
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .home {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+    /* padding: 0; */
   }
   .logo {
     padding-bottom: 20px;
