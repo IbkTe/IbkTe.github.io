@@ -1,444 +1,428 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Arvo:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Arvo:wght@700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
-body{
-max-width: 100rem;
-max-height: 100rem;
+body {
+  max-width: 100rem;
+  max-height: 100rem;
 }
-.home{
-    background-color: #ffc135;
-    /* max-width: 100vw; */
-    /* min-height:100vh ; */
-    padding: 30px;
+.home {
+  background-color: #ffc135;
+  /* max-width: 100vw; */
+  /* min-height:100vh ; */
+  padding: 30px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo h4{
-    align-items: center;
-    text-align: center;
-    padding-left: 5px;
-    list-style: 30px;
-    
+.logo h4 {
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+  list-style: 30px;
 }
-.delivery{
-    display: flex;
-    align-items: center;
+.delivery {
+  display: flex;
+  align-items: center;
 }
-.navbar ul{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    display: flex;
-    justify-content: end;
+.navbar ul {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  display: flex;
+  justify-content: end;
 }
-.navbar ul li{
-    list-style-type: none;
-    margin-left: 50px;
+.navbar ul li {
+  list-style-type: none;
+  margin-left: 50px;
 }
-.navbar a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: large;
-    color: #42200b;
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: #42200b;
 }
-.burgerWeek{
-    display: flex;
-    justify-content:space-between;
-    
+.burgerWeek {
+  display: flex;
+  justify-content: space-between;
 }
-.wholeBurger{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    /* align-items: flex-end;     */
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    align-self: stretch;
-    max-height: 50vh;
-    max-width: 100vw;
+.wholeBurger {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* align-items: flex-end;     */
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  align-self: stretch;
+  max-height: 50vh;
+  max-width: 100vw;
 }
-.wholeBurger h1 #hh{
-    color: #42200b;
-    font-size: 5rem;
-    font-family: 'Arvo', serif;
-    font-weight: 900;
+.wholeBurger h1 #hh {
+  color: #42200b;
+  font-size: 5rem;
+  font-family: "Arvo", serif;
+  font-weight: 900;
 }
-.wholeBurger h1 #spN{
-    color: #42200b;
-    font-size: 2pc;
-    font-family: 'Arvo', serif;
-    font-weight: 900;
+.wholeBurger h1 #spN {
+  color: #42200b;
+  font-size: 2pc;
+  font-family: "Arvo", serif;
+  font-weight: 900;
 }
-.wholeBurger p{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    color: #42200b;
-    width: 50%;
-    font-weight: bolder;
-    text-align: center;
-    padding: 5px 10px 5px 10px;
-    border: 2px dashed #42200b;
+.wholeBurger p {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: #42200b;
+  width: 50%;
+  font-weight: bolder;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  border: 2px dashed #42200b;
 }
 
 .burger {
-    position: relative;
-    flex-basis: 50%;
-    align-self: stretch;
-    background-image: url(./images/groupFood.png);
-    background-size: contain;
-    min-height: 100vh;
-    max-width: 100vw;
-    background-repeat: no-repeat;
+  position: relative;
+  flex-basis: 50%;
+  align-self: stretch;
+  background-image: url(./images/groupFood.png);
+  background-size: contain;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-repeat: no-repeat;
 }
 
-#redCirle{
-    background-image: url(./images/elipse.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    position: absolute;
-    padding: 14px;
-    bottom: 30%;
-    left: 15%;
-
+#redCirle {
+  background-image: url(./images/elipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  padding: 14px;
+  bottom: 30%;
+  left: 15%;
 }
-#redCirle h4{
-   font-family: 'Alumni Sans Pinstripe', sans-serif;
-    color: #fff;
-     font-size: large;
-     margin-top: -10px;
-    margin-left: 20px;  
+#redCirle h4 {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: #fff;
+  font-size: large;
+  margin-top: -10px;
+  margin-left: 20px;
 }
-#span{
-    letter-spacing: 10px;
-    margin-right: 9px;  
-
+#span {
+  letter-spacing: 10px;
+  margin-right: 9px;
 }
-#spa{
-    font-size: xx-large;
-    font-weight: 900;
+#spa {
+  font-size: xx-large;
+  font-weight: 900;
 }
-.special{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    grid-gap: 10px;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 90%;
-    height: 100%;
+.special {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  grid-gap: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 100%;
 }
 
-.special img{
-    width: 100%;
+.special img {
+  width: 100%;
 }
-.one{
-    height: 100%;
+.one {
+  height: 100%;
 }
-.second .sec{
-    height: 25%;
-    padding-bottom: 2%;
+.second .sec {
+  height: 25%;
+  padding-bottom: 2%;
 }
-.second .ond{
-    height: 25%;
-    padding-top: 2%;
+.second .ond {
+  height: 25%;
+  padding-top: 2%;
 }
-.second .sec{
-font-size: small;
+.second .sec {
+  font-size: small;
 }
-#text{
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    padding: 10px;
-    font-weight: 900;
-    position: absolute;
-    color: #fff;
-    width: 50%;
-    text-align: start;
-
-}
-
-.burgerOne img{
-     width: 100%;
-    margin-top: 20px;
+#text {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  padding: 10px;
+  font-weight: 900;
+  position: absolute;
+  color: #fff;
+  width: 50%;
+  text-align: start;
 }
 
-.burgerOne{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-
-}
-.realSpecial{
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    color: #42200b;
-    margin: 50px;
+.burgerOne img {
+  width: 100%;
+  margin-top: 20px;
 }
 
-.detail h4{
-    background-color: #ffc135;
-    line-height: 30px;
-    padding: 5px;
-    width: 11rem;
-    font-weight: 900;
-    margin: auto;
-    font-size: x-large;
-
+.burgerOne {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 }
-.detail h1{
-    font-size: 3rem;
-    font-family: 'Arvo', serif;
-    line-height: 100px;
-    font-weight: 900;
-}
-.realSpecial p{
-font-family: sans-serif;
-font-size: small;
-
+.realSpecial {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: #42200b;
+  margin: 50px;
 }
 
-.burgerText{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-
+.detail h4 {
+  background-color: #ffc135;
+  line-height: 30px;
+  padding: 5px;
+  width: 11rem;
+  font-weight: 900;
+  margin: auto;
+  font-size: x-large;
 }
-.burgerText h2{
-    line-height: 50px;
+.detail h1 {
+  font-size: 3rem;
+  font-family: "Arvo", serif;
+  line-height: 100px;
+  font-weight: 900;
 }
-.burgerText button{
-    background-color: #df1c1c;
-    border: none;
-    margin: 30px 0;
-    color: #fff;
-    font-family: 'Arvo', serif;
-    padding: 5px 15px 5px 15px;
-    font-weight: 900;
-    text-align: center;
-    line-height: 30px;
-}
-.scrolling{
-    color: #42200b;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 50px;
-}
-.scrolling img{
-    width: 100%;
-   
-}
-.One h3{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-weight: 900;
-    font-size: larger;
-    padding-left: 20px;
-
-}
-.One p{
-    font-size: large;
-    padding: 20px;
-    line-height: 30px;
-}
-.One h1{
-    padding-bottom: 10px;
-    padding-left: 20px;
-    font-family: 'Arvo', serif;
-    font-weight: bold;
-}
-.dotss{
-    display:flex;
-    padding: 20px;
-    margin-top: 100px;
-}
-.dot{
-    background-color: #ddd;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    margin: 4px;
-
-}
-.top{
-    background-color: #ffc135;
-}
-.form{
-    text-align: center;
-    background-image: url(./images/background.png);
-    margin: 4rem auto;
-    min-width: 100vw;
-    min-height: 100hv;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: #42200b;
-    background-position: center;
-}
-.form h1{
-    font-family: 'Arvo', serif;
-    font-size: xx-large;
-    font-weight: 900;
-    padding-bottom: 50px;
-}
-.form h3{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: xx-large;
-    font-weight: 900;
-
-}
-.input{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-input{
-    /* width:50px;      */
-    flex-basis: 33.3%;
-    line-height: 30px;
-    margin: 10px;
-    border: none;
-    color: #7c7474;
-    border-radius: 3px;
-    padding: 7px;
-    background-color: #ffb042;
-}
-#red{
-    flex-basis: 33.3%;
-    line-height: 30px;
-    margin: 10px;
-    border: none;
-    border-radius: 3px;
-    padding: 7px;
-    background-color: #df1c1c;
-    color: #fff;
-    font-family: serif;
-    font-weight: bold;
-    border: none;
-    font-size: medium;
-    text-align: center;
-}
-label{
-    background-color: #df1c1c;
-}
-.heading{
-display: block;
+.realSpecial p {
+  font-family: sans-serif;
+  font-size: small;
 }
 
-.footer{
-    background-image: url(./images/Untitled.png);
-    background-size: cover;
-    color: #fff;
-    background-repeat: no-repeat;
-    padding: 30px;
-    margin: 15px 40px;
-    padding-bottom: 10px;
+.burgerText {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 }
-.footerOne{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    margin-bottom: 50px;
-
-
+.burgerText h2 {
+  line-height: 50px;
 }
-.footerOne p{
+.burgerText button {
+  background-color: #df1c1c;
+  border: none;
+  margin: 30px 0;
+  color: #fff;
+  font-family: "Arvo", serif;
+  padding: 5px 15px 5px 15px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 30px;
+}
+.scrolling {
+  color: #42200b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 50px;
+}
+.scrolling img {
+  width: 100%;
+}
+.One h3 {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  padding-left: 20px;
+}
+.One p {
+  font-size: large;
+  padding: 20px;
+  line-height: 30px;
+}
+.One h1 {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+}
+.dotss {
+  display: flex;
+  padding: 20px;
+  margin-top: 100px;
+}
+.dot {
+  background-color: #ddd;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.top {
+  background-color: #ffc135;
+}
+.form {
+  text-align: center;
+  background-image: url(./images/background.png);
+  margin: 4rem auto;
+  min-width: 100vw;
+  min-height: 100hv;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #42200b;
+  background-position: center;
+}
+.form h1 {
+  font-family: "Arvo", serif;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+.form h3 {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input {
+  /* width:50px;      */
+  flex-basis: 33.3%;
+  line-height: 30px;
+  margin: 10px;
+  border: none;
+  color: #7c7474;
+  border-radius: 3px;
+  padding: 7px;
+  background-color: #ffb042;
+}
+#red {
+  flex-basis: 33.3%;
+  line-height: 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  background-color: #df1c1c;
+  color: #fff;
+  font-family: serif;
+  font-weight: bold;
+  border: none;
+  font-size: medium;
+  text-align: center;
+}
+label {
+  background-color: #df1c1c;
+}
+.heading {
+  display: block;
+}
+
+.footer {
+  background-image: url(./images/Untitled.png);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  padding: 30px;
+  margin: 15px 40px;
+  padding-bottom: 10px;
+}
+.footerOne {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  margin-bottom: 50px;
+}
+.footerOne p {
+  width: 60%;
+  font-family: sans-serif;
+}
+.h4 {
+  width: 40%;
+  text-align: start;
+  margin-left: 40%;
+}
+.h4 img {
+  padding-right: 20px;
+}
+.footerTwo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+@media screen and (min-width: 950px) {
+  .burgerWeek img {
+  }
+  .wholeBurger {
+  }
+  .wholeBurger p {
     width: 60%;
-    font-family: sans-serif;
+  }
+  .wholeBurger h1 #hh {
+    width: 100%;
+    font-size: 6pc;
+  }
+  #text {
+    font-size: xx-large;
+  }
 }
-.h4{
-    width: 40%;
-    text-align: start;
-    margin-left: 40%;
-}
-.h4 img{
-    padding-right: 20px;
-}
-.footerTwo{
+@media screen and (max-width: 600px) {
+  body {
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+    flex-direction: column;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    padding-bottom: 20px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .delivery img {
+    width: 20px;
+  }
+  .navbar {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .burgerWeek {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .wholeBurger {
+    justify-content: center;
+    align-items: center;
+  }
+  .wholeBurger p {
+    margin-bottom: 20px;
+    font-size: large;
+    width: 80%;
+    align-self: center;
+  }
+  .wholeBurger h1 {
+    margin-bottom: 2rem;
+    font-size: small;
+  }
+  #hh{
+        text-align: center;
+
+  }
+#spN{
+    text-align: start;
 }
-@media screen and (min-width: 950px)
-    {
- .burgerWeek img{
-    }
-    .wholeBurger{
-    } 
-    .wholeBurger p{
-         width:60% ; 
-    }
-     .wholeBurger h1 #hh{
-
-        width:100% ;
-        font-size: 6pc;
-  
-    } 
-    #text{
-        font-size: xx-large;
-    }
-
-}
-@media screen and (max-width: 600px ){
-    body{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .home{ 
-        display: flex;
-        flex-direction: column;
-
-    }
-    .logo{
-        padding-bottom: 20px;
-    }
-    .logo img{
-        width: 100px;
-    }
-    .delivery img{
-        width: 20px;
-    }
-    .navbar{
-        padding-bottom: 20px;
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .burgerWeek{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        justify-content: center;
-    }
-    .wholeBurger{
-        justify-content: center;
-        align-items: center;
-    }
-    .wholeBurger p{
-        margin-bottom: 20px;
-font-size: large; 
-width: 80%;
-align-self: center;
-}
-    .wholeBurger h1{
-
-        margin-bottom: 2rem;
-    }
-
-    .Burger{
-
+  .Burger {
     position: relative;
     flex-basis: 50%;
     align-self: stretch;
@@ -447,68 +431,66 @@ align-self: center;
     min-height: 100vh;
     max-width: 100vw;
     background-repeat: no-repeat;
-
-} 
-.special{
+  }
+  .special {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.detail h4{
+  }
+  .detail h4 {
     margin: 10px auto;
-}
-.detail h1{
-line-height: 60px;}
-    .burgers{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-    }
-    .burgers img{
-        width: 150%;
-
-    }
-    .burgerOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .burgerText{
-        display: flex;
-        flex-direction: column;
-    }
-    .scrolling{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .input{
-        display: grid;
-        place-content: center;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer{
-        width:1;
-        align-items: center;
-    }
-    .footerOne{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .h4{
-        margin-left: -1px;
-        margin-top: 10px;
-    }
-    .footerTwo{
-        display: flex;
-        flex-direction: column;
-        margin-top: 70px;
-    }
-    .footerTwo img{
-width: 100px;
-    }
+  }
+  .detail h1 {
+    line-height: 60px;
+  }
+  .burgers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .burgers img {
+    width: 150%;
+  }
+  .burgerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .burgerText {
+    display: flex;
+    flex-direction: column;
+  }
+  .scrolling {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .input {
+    display: grid;
+    place-content: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    width: 1;
+    align-items: center;
+  }
+  .footerOne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .h4 {
+    margin-left: -1px;
+    margin-top: 10px;
+  }
+  .footerTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .footerTwo img {
+    width: 100px;
+  }
 }
