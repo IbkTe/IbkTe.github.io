@@ -66,7 +66,7 @@ max-height: 100rem;
 }
 .wholeBurger h1 #hh{
     color: #42200b;
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'Arvo', serif;
     font-weight: 900;
 }
@@ -299,8 +299,6 @@ font-size: small;
 .input{
     display: flex;
     flex-wrap: wrap;
-    
-    /* margin: 20px; */
     justify-content: center;
 }
 input{
@@ -309,17 +307,28 @@ input{
     line-height: 30px;
     margin: 10px;
     border: none;
+    color: #7c7474;
     border-radius: 3px;
     padding: 7px;
     background-color: #ffb042;
 }
 #red{
+    flex-basis: 33.3%;
+    line-height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
     background-color: #df1c1c;
     color: #fff;
     font-family: serif;
     font-weight: bold;
+    border: none;
     font-size: medium;
     text-align: center;
+}
+label{
+    background-color: #df1c1c;
 }
 .heading{
 display: block;
@@ -428,7 +437,7 @@ align-self: center;
         margin-bottom: 2rem;
     }
 
-.Burger{
+    .Burger{
 
     position: relative;
     flex-basis: 50%;
