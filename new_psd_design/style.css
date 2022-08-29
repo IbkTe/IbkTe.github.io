@@ -289,7 +289,7 @@ body {
   justify-content: center;
 }
 input {
-  /* width:50px;      */
+  width:100%;     
   flex-basis: 33.3%;
   line-height: 30px;
   margin: 10px;
@@ -378,6 +378,7 @@ label {
   .home {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .logo {
     padding-bottom: 20px;
