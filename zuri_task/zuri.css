@@ -249,3 +249,46 @@ hr {
 .d-xl-block {
     display: block!important;
 }}
+.hero-container{
+}
+.btn-div{
+  display: flex;
+  flex-direction: column;
+}
+.zed-content p, .text-center p , .program-card-zed p{
+  text-align: start;
+}
+footer{
+  display: flex;
+  /* flex-direction: column!important; */
+}
+.footer-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-3 h3{
+  font-size: x-large;
+}
+.flex-3{
+  padding-top: 30px;
+}
+.flex-3 p{
+    text-align: center;
+
+}
+.flex-4 h3{
+  font-size: x-large;
+  margin-top: 20px;
+}
+.flex-4 p{
+  text-align: center;
+}
+.flex-5 h3{
+  
+  font-size: x-large;
+  margin-top: 20px;
+}
+.copyright p{
+  text-align: center;
+}
