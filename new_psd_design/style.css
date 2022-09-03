@@ -355,10 +355,6 @@ label {
   margin-top: 100px;
 }
 @media screen and (min-width: 950px) {
-  .burgerWeek img {
-  }
-  .wholeBurger {
-  }
   .wholeBurger p {
     width: 60%;
   }
