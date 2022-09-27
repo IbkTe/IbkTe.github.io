@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>MY CART</title>
+  </head>
+  
+  <body>
+
+    <section class="cart">
+      <div class="jumbotron">
+        <header>
+          <h1>Shopping Cart</h1>
+          <p>3 items</p>
+        </header>
+        <div class="body">
+         <div class="product first">
+            <div class="shirt"></div>
+            <div class="name-of-shirt">
+              <p></p>
+              <h4></h4>
+            </div>
+            <div class="quantity">
+              <button id="mi" class="btnminus"></button>
+              <input type="number" id="num" inputmode="numeric" value="" class="cart-quantity-input">
+              <button id="pi" class="btnplus"></button>
+            </div>
+            <h4 class="originalamount">20</h4>
+            <h4 id="amount" class="amount"></h4>
+            <p id="cancel" class="delete"></p>
+          </div>
+
+             <div class="product second">
+            <div class="shirt"></div>
+            <div class="name-of-shirt">
+              <p>shirt</p>
+              <h4>FERRAGAMO</h4>
+            </div>
+            <div class="quantity">
+              <button id="min" class="btnminus">-</button>
+              <input type="number" id="nu" class="cart-quantity-input" value="1">
+              <button id="pl" class="btnplus">+</button>
+            </div>
+            <h4 class="originalamount">25</h4>
+
+            <h4 id="amounts" class="amount">£25.00</h4>
+            <p id="cancels" class="delete">x</p>
+          </div>
+
+         
+           <!-- 
+
+          <div class="product third">
+            <div class="shirt"></div>
+            <div class="name-of-shirt">
+              <p>shirt</p>
+              <h4>ASHLUXE</h4>
+            </div>
+            <div class="quantity">
+              <button id="minus" class="btnminus">-</button>
+              <input type="number" id="number" class="cart-quantity-input" value="2">
+              <button id="plus" class="btnplus">+</button>
+            </div>
+            <h4 class="originalamount">30</h4>
+
+            <h4 id="amountss" class="amount">£30.00</h4>
+            <p id="cancelss" class="delete">x</p>
+          </div>
+        </div> -->
+        <p id="shop"><a href="index.html">&larr; Back to shop</a> </p>
+      </div>
+        <div class="summary">
+          <header>
+            <h1>Summary</h1>
+          </header>
+          <div class="price">
+            <h4>ITEMS 3</h4>
+            <h4 class="total-price">£145.00</h4>
+          </div>
+          <div class="detail">
+            <label for="">SHIPPING </label>
+            <select name="" id="">
+              <option value="platinum-Delivery">platinum-Delivery-£<span class="span">6</span>.00</option>
+              <option value="Standard-Delivery" selected="selected">Standard-Delivery-£<span class="span">5</span> .00</option>
+              <option value="Basic-Delivery">Basic-Delivery-£<span class="span">4</span>.00</option>
+            </select>
+            <label for="">GIVE CODE</label>
+            <input type="text" placeholder="Enter your code  &#x2192">
+          </div>
+          <div class="total">
+            <h4>TOTAL PRICE</h4>
+            <h4 class="total-price">£137.00</h4>
+          </div>
+          <button class="purchase">CHECKOUT</button>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
