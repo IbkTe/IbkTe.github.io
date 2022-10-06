@@ -36,6 +36,7 @@ p{
 
 header{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
@@ -102,15 +103,15 @@ header{
 
 
 .message p:nth-child(2){
-    padding: 20px;
+    padding: 15px;
     border: 1px hsl(205, 33%, 90%)solid;
     border-radius: 5px;
-    width: 87%;
+    width: 85%;
 
 }
 .bar-with-img{
     display: flex;
-    width: 87%;
+    width: 85%;
     justify-content: space-between;
 }
 
