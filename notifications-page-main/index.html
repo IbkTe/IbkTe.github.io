@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="main-container">
+      <header>
+        <h2>Notifications <span class="no-of-notification">3</span></h2>
+        <p>Mark all as read</p>
+      </header>
+
+      <div class="body">
+
+        <div class="unread">
+
+          <div class="bar">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="" />
+            <p>
+              <span class="name">Mark Webber </span> reacted to your recent
+              post
+              <span class="darker-text">My first tournament today! <span class="red-dot"> </span></span>
+              <span class="duration">1m ago</span>
+            </p>
+          </div>
+
+          <div class="bar">
+            <img src=".//assets/images/avatar-angela-gray.webp" alt="" />
+            <p>
+              <span class="name">Angela Gray</span> followed you                 <span class="red-dot"></span>
+            <span class="duration">5m ago</span>
+
+            </p>
+          </div>
+
+          <div class="bar">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
+            <p>
+              <span class="name">Jacob Thompson</span> has joined your group
+              <span class="blue-text">Chess Club <span class="red-dot"></span></span>
+              <span class="duration">1 day ago</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="reading">
+          <div class="bar">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <div class="message">
+              <p>
+                <span class="name">Rizky Hasanuddin</span> sent you a private
+                message <span class="duration">5 days ago</span>
+              </p>
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a
+                member for a few weeks now and I'm already having lots of fun
+                and improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bar">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
+          <div class="bar-with-img">
+            <p>
+              <span class="name">Kimberly Smith</span> commented on your
+              picture
+              <span class="duration">1 week ago</span>
+            </p>
+
+            <img src="./assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+        <div class="bar">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
+          <p>
+            <span class="name">Nathan Peterson</span> reacted to your recent
+            post
+            <span class="darker-text">5 end-game strategies to increase your win rate </span><span class="duration">2
+              weeks ago</span>
+          </p>
+        </div>
+        <div class="bar">
+          <img src="/assets/images/avatar-anna-kim.webp" alt="" />
+          <p>
+            <span class="name">Anna Kim</span> left the group
+            <span class="blue-text">Chess Club</span>
+            <span class="duration">2 weeks ago</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">IbkTe</a>.
+  </div>
+</body>
+
+</html>

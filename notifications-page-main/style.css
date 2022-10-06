@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+        background-color: rgb(247, 250, 253);
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: poppins;
+    padding: 3rem 0px ;
+
+}
+.main-container{
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, .1);
+    padding: 20px;
+    min-height: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+h2{
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+}
+p{
+    color: hsl(219, 12%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.no-of-notification{
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    margin-left:10px;
+    padding: 0px 15px;
+    font-family: poppins;
+    font-weight: 300;
+    border-radius: 8px;
+}
+.name{
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+   
+}
+.duration{
+    display: block;
+    color: hsl(219, 14%, 63%);
+}
+.blue-text{
+    color: hsl(219, 85%, 26%);
+    font-weight: bold;
+}
+.darker-text{
+    font-weight: 700;
+    color: hsl(219, 12%, 42%);
+
+
+}
+
+.unread .bar{
+    background-color:hsl(210, 60%, 98%);
+    border-radius: 10px;
+  
+   
+}
+ .red-dot{
+    width: 8px;
+    display: inline-block;
+    height: 8px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+}
+.bar img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 10px;
+    margin-top: 1.1rem;
+}
+.bar{    
+    display: flex; 
+    /* align-items: center; */
+    padding: 10px; 
+    margin-bottom: 10px;
+
+}
+.bar p{
+    padding: 0px;
+    margin-left: 20px;
+}
+
+
+.message p:nth-child(2){
+    padding: 20px;
+    border: 1px hsl(205, 33%, 90%)solid;
+    border-radius: 5px;
+    width: 87%;
+
+}
+.bar-with-img{
+    display: flex;
+    width: 87%;
+    justify-content: space-between;
+}
+
+header p:hover, .name:hover, .darker-text:hover{
+color: hsl(219, 85%, 26%);
+
+}
+
+.message p:nth-child(2):hover{
+    background-color: hsl(211, 68%, 94%);
+}
