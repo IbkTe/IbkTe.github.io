@@ -36,16 +36,20 @@ p{
 
 header{
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
+header p{
+    cursor: pointer;
+
+}
 .no-of-notification{
+    cursor: pointer;
     background-color: hsl(219, 85%, 26%);
     color: hsl(0, 0%, 100%);
     margin-left:10px;
-    padding: 0px 15px;
+    padding: 0px 1rem;
     font-family: poppins;
     font-weight: 300;
     border-radius: 8px;
@@ -60,22 +64,25 @@ header{
     color: hsl(219, 14%, 63%);
 }
 .blue-text{
+    cursor: pointer;
     color: hsl(219, 85%, 26%);
     font-weight: bold;
 }
 .darker-text{
     font-weight: 700;
+    cursor: pointer;
     color: hsl(219, 12%, 42%);
 
 
 }
 
 .unread .bar{
+        border-radius: 10px;
     background-color:hsl(210, 60%, 98%);
-    border-radius: 10px;
-  
-   
+    cursor: pointer;
+
 }
+
  .red-dot{
     width: 8px;
     display: inline-block;
@@ -103,15 +110,15 @@ header{
 
 
 .message p:nth-child(2){
-    padding: 15px;
+    padding: 20px;
     border: 1px hsl(205, 33%, 90%)solid;
     border-radius: 5px;
-    width: 85%;
+    width: 87%;
 
 }
 .bar-with-img{
     display: flex;
-    width: 85%;
+    width: 87%;
     justify-content: space-between;
 }
 
@@ -122,4 +129,16 @@ color: hsl(219, 85%, 26%);
 
 .message p:nth-child(2):hover{
     background-color: hsl(211, 68%, 94%);
+}
+
+@media screen and (max-width:380px){
+    section{
+padding: .5rem 0px;
+    }
+    header h2{
+        font-size: 1rem;
+    }
+    .message p:nth-child(2){
+        margin-left: 0;
+    }
 }
