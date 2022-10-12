@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>website</title>
+</head>
+<body>
+
+    <h1>All Products</h1>
+    <p>Page <span class="current-page">1</span> of <span class="total-pages">1</span> </p>
+
+    <template id="productTemplate">
+        <div class="product">
+            <h2>
+                <span class="product-brand"></span>
+                <span class="product-title"></span>
+            </h2>
+
+            <div class="product-price">
+
+            </div>
+        </div>
+    </template>
+    <div id="productList"></div>
+    <div id="pagination">
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
